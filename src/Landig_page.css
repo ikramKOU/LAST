@@ -1,7 +1,6 @@
-
+@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-@import url("fontawesome-all.min.css");
 
 
 html, body, div, span, applet, object,
@@ -17,27 +16,57 @@ footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
+	.container{
+		width: 100%;
+	  }
+	#two{
+		background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;}
+	}
+	#three{
+		width: 100% !important;
+		background-color: #74ebda;
+background-image: linear-gradient(90deg, #74ebda 0%, #666ece 100%);
 
-body {
-	line-height: 1;
-}
 
-ol, ul {
+	}
+	
+	}
+	#four{
+		width: 100% !important;
+		background-color: #74ebda;
+background-image: linear-gradient(90deg, #74ebda 0%, #666ece 100%);
+
+		}
+		#one{
+			width: 100% !important;
+		background-color: #74ebda;
+background-image: linear-gradient(90deg, #74ebda 0%, #666ece 100%);
+
+				}
+				#major{
+					color:#ffffff;
+				}
+.is-preload{
+	display :flex !important;
+	flex-direction : column !important;
+	width : 100% !important ;
+	height:  100%;
+	
+	}
+	
+	
+	ol, ul {
 	list-style: none;
 }
-
 blockquote, q {
 	quotes: none;
 }
 
+	#header,#one, #two,#three, #footer{
+		width : 100% !important;
+		}
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
@@ -80,7 +109,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #ffffff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
