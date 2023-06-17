@@ -3,18 +3,17 @@ import React from 'react'
 import './login.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faBolt, faCameraRetro, faCog, faDesktop, faCalendar } from '@fortawesome/free-solid-svg-icons'
-import logo from './assets/images/lofin.png'
 import back from './assets/images/C1.jfif'
 import back1 from './assets/images/C2.jfif'
 import back2 from './assets/images/C3.jfif'
 import second from './assets/images/kl.png'
+import lofofo9 from '../../assets/images/lofin.png'
 function Login(){
     
 return (	
 
-
 <>
-
+  
 <div className="container-scroller">
       
       <div className="container-fluid page-body-wrapper full-page-wrapper">
@@ -27,7 +26,7 @@ return (
                   <div className="form-group">
                     <div className="container">
                           <div className="logo">
-                            <img src="C:/Users/ikram/OneDrive/Bureau/pfa/images/logo_gris.jfif" alt="Logo de l'école" height="50" width="100"/>
+                            <img src={lofofo9} alt="Logo de l'école" height="50" width="100"/>
                           </div>
                        </div>
                     <label className="label">Nom utilisateur</label>
@@ -52,8 +51,7 @@ return (
                     </div>
                   </div>
                   <div className="form-group">
-                    <a href="C:/Users/ikram/OneDrive/Bureau/pfa/Dash/src/pages/tables/basic-table.html" className="btn btn-primary submit-btn btn-block">Login</a>
-                    <button  className="btn btn-primary submit-btn btn-block">Login</button>
+                    <a href="/basic-table" className="btn btn-primary submit-btn btn-block">Login</a>
                    
                   </div>
                   <div className="form-group d-flex justify-content-between">

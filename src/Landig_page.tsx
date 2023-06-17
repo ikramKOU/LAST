@@ -15,30 +15,30 @@ function Landig_page(){
 return (	
 <>
 <body className="is-preload">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-6">
-              <a href="/login" className="btn btn-secondary">
-                Connexion
-              </a>
-            </div>
-            <div className="col-md-6">
-              <a href="/register" className="btn btn-secondary">
-                Pré-Inscription
-              </a>
-            </div>
-            <div className="col-md-6">
-              <a href="C:/Users/ikram/OneDrive/Bureau/pfa/Dash/src/pages/samples/registerProf.html" className="btn btn-secondary">
-                Inscription Professeur
-              </a>
-            </div>
-            <div className="col-md-6">
-              <a href="C:/Users/ikram/OneDrive/Bureau/pfa/Dash/src/pages/samples/contact.html" className="btn btn-secondary">
-                Contact
-              </a>
-            </div>
-          </div>
+<div className="container-fluid">
+      <div className="row header_css">
+        <div className="col-md-3">
+          <a href="/login" className="btn btn-secondary">
+            Connexion
+          </a>
         </div>
+        <div className="col-md-3">
+          <a href="/register" className="btn btn-secondary">
+            Pré-Inscription
+          </a>
+        </div>
+        <div className="col-md-3">
+          <a href="/registerProf" className="btn btn-secondary">
+            Inscription Professeur
+          </a>
+        </div>
+        <div className="col-md-3">
+          <a href="/contact" className="btn btn-secondary">
+            Contact
+          </a>
+        </div>
+      </div>
+    </div>
 
         <section id="header">
           <div className="inner">

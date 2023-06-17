@@ -65,9 +65,10 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #ffffff;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -9627,9 +9628,10 @@ ul {
   .auth.auth-bg-1 {
     background: url("../src/auth/login_1.jpg");
     background-size: cover; }
-  .auth.register-bg-1 {
-    background: url("../../images/auth/prof.jpg") center center no-repeat;
+  .auth.registerProf-bg-1 {
+    background: url("./src/auth/prof.jpg") center center no-repeat;
     background-size: cover; }
+
   .auth.theme-one .auto-form-wrapper {
     background: #fff;
     padding: 40px 40px 10px;

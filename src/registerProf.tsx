@@ -1,14 +1,14 @@
 import react from 'react';
-
-const Register = () => {
+import './RegisterP.css';
+const RegisterP = () => {
     return(
         <>
-          <div className="container-scroller">
+           <div className="container-scroller">
       <div className="container-fluid page-body-wrapper full-page-wrapper">
         <div className="content-wrapper d-flex align-items-center auth register-bg-1 theme-one">
           <div className="row w-100">
             <div className="col-lg-4 mx-auto">
-              <h2 className="text-center mb-4" >Inscription des nouveaux étudiants </h2>
+              <h2 className="text-center mb-4" >Inscription des nouveaux Professeurs </h2>
            
               <div className="auto-form-wrapper">
                 <form action="#">
@@ -32,16 +32,7 @@ const Register = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="form-group">
-                    <div className="input-group">
-                      <input type="text" className="form-control" placeholder="CNE"/>
-                      <div className="input-group-append">
-                        <span className="input-group-text">
-                          <i className="mdi mdi-check-circle-outline"></i>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
+                
                   <div className="form-group">
                     <div className="input-group">
                       <input type="text" className="form-control" placeholder="CNI"/>
@@ -64,7 +55,7 @@ const Register = () => {
                   </div>
                   <div className="form-group">
                     <div className="input-group">
-                      <input type="text" className="form-control" placeholder="Moyenne de bac"/>
+                      <input type="text" className="form-control" placeholder="Spécialité"/>
                       <div className="input-group-append">
                         <span className="input-group-text">
                           <i className="mdi mdi-check-circle-outline"></i>
@@ -126,4 +117,4 @@ const Register = () => {
 }
 
 
-export default Register;
+export default RegisterP;
